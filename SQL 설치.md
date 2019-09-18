@@ -59,16 +59,3 @@ SQL 설치
 
 ## 5. 폰트변경
 - 도구 - 환경설정 - 코드편집기 - 글꼴 
-
-4. 데이터베이스 소프트웨어만 설치
-5. 구성 및 이전 툴 - Databse Configuration Assistant 실행
-6. 3단계 - EZDB 
-7. Enterprise Manager 구성 체크 해제 
-8. 모든 계정에 동일한 관리 비밀번호 - 123456 - 기본값 설치
-9. java jdk 폴더 선택
-10. NET Configuration Assistant - 로컬 네트 서비스 이름 구성 
-11. 추가 - 서비스이름 (EZDB) - TCP - 호스트이름(cmd - hostname) - 테스트 수행 - 로그인변경 - 비밀번호 123456 - 네트 서비스이름(기본값)
-
-12. SQL Developer 실행 - 접속 - 기본사용자(+) - 다른 사용자 - SCOTT - 사용자편집
-13. 비밀번호 설정 - 비밀번호가 만료됨, 계정이 잠겨있음 해제
-14. 새접속 - SCOTT - 1234 
