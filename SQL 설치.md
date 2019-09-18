@@ -1,61 +1,61 @@
-SQL ¼³Ä¡ 
+## Oracle-MySQL-developer setup
 
-## 0. Æú´õ ÁØºñ
-- 2¹ø Æú´õÀÇ Components³»ÀÇ ÆÄÀÏÀ» 1¹ø Æú´õÀÇ °°Àº °æ·Î·Î º¹»ç 
+### 0. í´ë” ì¤€ë¹„
+- 2ë²ˆ í´ë”ì˜ Componentsë‚´ì˜ íŒŒì¼ì„ 1ë²ˆ í´ë”ì˜ ê°™ì€ ê²½ë¡œë¡œ ë³µì‚¬ 
 
-## 1. Oracle Database ¼³Ä¡ÇÁ·Î±×·¥ 
-- setup.exe ½ÇÇà 
-- º¸¾È°»½Å±¸¼º : ½ºÅµ
-- ¼³Ä¡¿É¼Ç : µ¥ÀÌÅÍº£ÀÌ½º ¼ÒÇÁÆ®¿þ¾î¸¸ ¼³Ä¡
-- Grid ¼³Ä¡ ¿É¼Ç : µðÆúÆ®
-- Á¦Ç°¾ð¾î : µðÆúÆ®
-- ¼³Ä¡À¯Çü : µðÆúÆ®
-- ¼³Ä¡À§Ä¡ : µðÆúÆ®
-- ÇÊ¿äÁ¶°Ç°Ë»ç, ¿ä¾à - Á¦Ç°¼³Ä¡ - ¿Ï·á - ´Ý±â 
+### 1. Oracle Database ì„¤ì¹˜í”„ë¡œê·¸ëž¨ 
+- setup.exe ì‹¤í–‰ 
+- ë³´ì•ˆê°±ì‹ êµ¬ì„± : ìŠ¤í‚µ
+- ì„¤ì¹˜ì˜µì…˜ : ë°ì´í„°ë² ì´ìŠ¤ ì†Œí”„íŠ¸ì›¨ì–´ë§Œ ì„¤ì¹˜
+- Grid ì„¤ì¹˜ ì˜µì…˜ : ë””í´íŠ¸
+- ì œí’ˆì–¸ì–´ : ë””í´íŠ¸
+- ì„¤ì¹˜ìœ í˜• : ë””í´íŠ¸
+- ì„¤ì¹˜ìœ„ì¹˜ : ë””í´íŠ¸
+- í•„ìš”ì¡°ê±´ê²€ì‚¬, ìš”ì•½ - ì œí’ˆì„¤ì¹˜ - ì™„ë£Œ - ë‹«ê¸° 
 
-## 2. Oracle Configuration Assistant
-- ÀÛ¾÷ : µ¥ÀÌÅÍº£ÀÌ½º »ý¼º 
-- µ¥ÀÌÅÍº£ÀÌ½º ÅÛÇÃ¸®Æ® : ¹ü¿ë ¶Ç´Â Æ®·£Àè¼Ç Ã³¸® 
-- µ¥ÀÌÅÍº£ÀÌ½º ID : EZDB
-- °ü¸®¿É¼Ç : Enterprise Manager ±¸¼º Ã¼Å© ÇØÁ¦ 
-- µ¥ÀÌÅÍº£ÀÌ½º ÀÎÁõ¼­ : ¸ðµç °èÁ¤¿¡ µ¿ÀÏÇÑ °ü¸® ºñ¹Ð¹øÈ£ »ç¿ë(123456)
-- µ¥ÀÌÅÍº£ÀÌ½º ÆÄÀÏ À§Ä¡ : µðÆúÆ®
-- º¹±¸ ±¸¼º : µðÆúÆ® 
-- µ¥ÀÌÅÍº£ÀÌ½º ³»¿ë : µðÆúÆ®
-- ÃÊ±âÈ­ ¸Å°³º¯¼ö : µðÆúÆ®
-- µ¥ÀÌÅÍº£ÀÌ½º ÀúÀå ¿µ¿ª : µðÆúÆ®
-- »ý¼º¿É¼Ç : µðÆúÆ®
-- ¿Ï·áÃ¢¿¡¼­ ºñ¹Ð¹øÈ£ °ü¸® - SCOTT Àá±Ý ÇØÁ¦ - ºñ¹Ð¹øÈ£ ¼³Á¤(1234)
+### 2. Oracle Configuration Assistant
+- ìž‘ì—… : ë°ì´í„°ë² ì´ìŠ¤ ìƒì„± 
+- ë°ì´í„°ë² ì´ìŠ¤ í…œí”Œë¦¬íŠ¸ : ë²”ìš© ë˜ëŠ” íŠ¸ëžœìž­ì…˜ ì²˜ë¦¬ 
+- ë°ì´í„°ë² ì´ìŠ¤ ID : EZDB
+- ê´€ë¦¬ì˜µì…˜ : Enterprise Manager êµ¬ì„± ì²´í¬ í•´ì œ 
+- ë°ì´í„°ë² ì´ìŠ¤ ì¸ì¦ì„œ : ëª¨ë“  ê³„ì •ì— ë™ì¼í•œ ê´€ë¦¬ ë¹„ë°€ë²ˆí˜¸ ì‚¬ìš©(123456)
+- ë°ì´í„°ë² ì´ìŠ¤ íŒŒì¼ ìœ„ì¹˜ : ë””í´íŠ¸
+- ë³µêµ¬ êµ¬ì„± : ë””í´íŠ¸ 
+- ë°ì´í„°ë² ì´ìŠ¤ ë‚´ìš© : ë””í´íŠ¸
+- ì´ˆê¸°í™” ë§¤ê°œë³€ìˆ˜ : ë””í´íŠ¸
+- ë°ì´í„°ë² ì´ìŠ¤ ì €ìž¥ ì˜ì—­ : ë””í´íŠ¸
+- ìƒì„±ì˜µì…˜ : ë””í´íŠ¸
+- ì™„ë£Œì°½ì—ì„œ ë¹„ë°€ë²ˆí˜¸ ê´€ë¦¬ - SCOTT ìž ê¸ˆ í•´ì œ - ë¹„ë°€ë²ˆí˜¸ ì„¤ì •(1234)
 
-## 3.1 Oracle Net Configuration Assistant - ¸®½º³Ê ±¸¼º 
-- ¸®½º³Ê ±¸¼º : µðÆúÆ®
-- ¸®½º³Ê¸í : µðÆúÆ® 
-- ÇÁ·ÎÅäÄÝ ¼±ÅÃ : µðÆúÆ®
-- TCP/IP ÇÁ·ÎÅäÄÝ : µðÆúÆ®
-- ´Ù¸¥ ¸®½º³Ê¸¦ ±¸¼º : ¾Æ´Ï¿ä
-- ±¸¼º¿Ï·á
+### 3.1 Oracle Net Configuration Assistant - ë¦¬ìŠ¤ë„ˆ êµ¬ì„± 
+- ë¦¬ìŠ¤ë„ˆ êµ¬ì„± : ë””í´íŠ¸
+- ë¦¬ìŠ¤ë„ˆëª… : ë””í´íŠ¸ 
+- í”„ë¡œí† ì½œ ì„ íƒ : ë””í´íŠ¸
+- TCP/IP í”„ë¡œí† ì½œ : ë””í´íŠ¸
+- ë‹¤ë¥¸ ë¦¬ìŠ¤ë„ˆë¥¼ êµ¬ì„± : ì•„ë‹ˆìš”
+- êµ¬ì„±ì™„ë£Œ
 
-## 3.2 Oracle Net Configuration Assistant - ·ÎÄÃ ³×Æ® ¼­ºñ½º ÀÌ¸§ ±¸¼º
-- ³×Æ® ¼­ºñ½º ÀÌ¸§ ±¸¼º : Ãß°¡
-- ¼­ºñ½º ÀÌ¸§ : EZDB
-- ÇÁÅäÅäÄÝ ¼±ÅÃ : TCP
-- **È£½ºÆ® ÀÌ¸§ : (cmd °ü¸®ÀÚ - hostname)ÀÇ hostname** 
-- Å×½ºÆ® ¼öÇà 
-- ³×Æ® ¼­ºñ½º ÀÌ¸§ ±¸¼º, Á¢¼Ó : ·Î±×ÀÎ º¯°æÀÇ ºñ¹Ð¹øÈ£ º¯°æ (123456)
-- ´Ù¸¥³×Æ® ¼­ºñ½º ±¸¼º : ¾Æ´Ï¿ä
-- ¿Ï·á 
+### 3.2 Oracle Net Configuration Assistant - ë¡œì»¬ ë„¤íŠ¸ ì„œë¹„ìŠ¤ ì´ë¦„ êµ¬ì„±
+- ë„¤íŠ¸ ì„œë¹„ìŠ¤ ì´ë¦„ êµ¬ì„± : ì¶”ê°€
+- ì„œë¹„ìŠ¤ ì´ë¦„ : EZDB
+- í”„í† í† ì½œ ì„ íƒ : TCP
+- **í˜¸ìŠ¤íŠ¸ ì´ë¦„ : (cmd ê´€ë¦¬ìž - hostname)ì˜ hostname** 
+- í…ŒìŠ¤íŠ¸ ìˆ˜í–‰ 
+- ë„¤íŠ¸ ì„œë¹„ìŠ¤ ì´ë¦„ êµ¬ì„±, ì ‘ì† : ë¡œê·¸ì¸ ë³€ê²½ì˜ ë¹„ë°€ë²ˆí˜¸ ë³€ê²½ (123456)
+- ë‹¤ë¥¸ë„¤íŠ¸ ì„œë¹„ìŠ¤ êµ¬ì„± : ì•„ë‹ˆìš”
+- ì™„ë£Œ 
  
 
-## 4. sqldeveloper.exe ½ÇÇà
-- C\Program Files\java\jdk Æú´õ ¼±ÅÃ 
-- È¯°æ¼³Á¤ ÀÓÆ÷Æ® : ¾Æ´Ï¿À
-- Á¢¼Ó ¾Æ·¡ÀÇ **`+` ¼±ÅÃ** 
- - Á¢¼ÓÀÌ¸§ : SCOTT
- - »ç¿ëÀÚ ÀÌ¸§ : scott
- - ºñ¹Ð¹øÈ£ : 1234
- - **SID¸¦ [xe] ¿¡¼­ [EZDB]·Î º¯°æ**
-- ¿Ï·á
+### 4. sqldeveloper.exe ì‹¤í–‰
+- C\Program Files\java\jdk í´ë” ì„ íƒ 
+- í™˜ê²½ì„¤ì • ìž„í¬íŠ¸ : ì•„ë‹ˆì˜¤
+- ì ‘ì† ì•„ëž˜ì˜ **`+` ì„ íƒ** 
+ - ì ‘ì†ì´ë¦„ : SCOTT
+ - ì‚¬ìš©ìž ì´ë¦„ : scott
+ - ë¹„ë°€ë²ˆí˜¸ : 1234
+ - **SIDë¥¼ [xe] ì—ì„œ [EZDB]ë¡œ ë³€ê²½**
+- ì™„ë£Œ
 
 
-## 5. ÆùÆ®º¯°æ
-- µµ±¸ - È¯°æ¼³Á¤ - ÄÚµåÆíÁý±â - ±Û²Ã 
+### 5. í°íŠ¸ë³€ê²½
+- ë„êµ¬ - í™˜ê²½ì„¤ì • - ì½”ë“œíŽ¸ì§‘ê¸° - ê¸€ê¼´ 
