@@ -1,41 +1,41 @@
-## ±³Àç : NCS ±â¹ÝÀÇ ORACLE (SQL&PL / SQL)
+## êµìž¬ : NCS ê¸°ë°˜ì˜ ORACLE (SQL&PL / SQL)
 
-## SQL(Structured Query Language) Á¤ÀÇ¿Í Á¾·ù(DML, DDL, DCL, TCL)
-
-
- - SQL(Structured Query Language)Àº °ü°èÇü µ¥ÀÌÅÍº£ÀÌ½º¿¡¼­ µ¥ÀÌÅÍ Á¤ÀÇ(DDL), µ¥ÀÌÅÍ Á¶ÀÛ(DML), µ¥ÀÌÅÍ Á¦¾î(DCL)¸¦ ÇÏ±â À§ÇØ »ç¿ëÇÏ´Â ¾ð¾î´Ù.
-
- - SQLÀÇ ÃÖÃÊ ÀÌ¸§ÀÌ SEQUEL(Structured English QUEry Language)ÀÌ¾ú±â ¶§¹®¿¡ '½ÃÅ¥¾ó'·Î ÀÐ´Â °æ¿ìµµ ÀÖÁö¸¸ Ç¥ÁØÀº SQL ÀÌ¹Ç·Î '¿¡½ºÅ¥¿¤'·Î ÀÐ´Â´Ù.
-
- - SQL ¹®ÀåÀº ´Ü¼ø ½ºÅ©¸³Æ®°¡ ¾Æ´Ï¶ó µ¶¸³µÈ ÇÏ³ªÀÇ °³¹ß ¾ð¾îÀÌ´Ù.
-
- - ÇÏÁö¸¸, ÀÏ¹ÝÀûÀÎ ÇÁ·Î±×·¡¹Ö ¾ð¾î¿Í´Â ´Þ¸® SQLÀº °ü°èÇü µ¥ÀÌÅÍº£ÀÌ½º¿¡ ´ëÇÑ Àü´ã Á¢¼Ó ¿ëµµ·Î »ç¿ëµÇ¸ç ¼¼¹ÌÄÝ·Ð(;)À¸·Î ºÐ¸®µÇ¾î ÀÖ´Â SQL ¹®Àå ´ÜÀ§·Î µ¶¸³µÇ¾î ÀÖ´Ù.
-
- - °ü°èÇü µ¥ÀÌÅÍº£ÀÌ½º´Â ¼öÇÐÀÇ ÁýÇÕ ³í¸®¿¡ ÀÔ°¢ÇÑ °ÍÀÌ¹Ç·Î, SQLµµ µ¥ÀÌÅÍ¸¦ ÁýÇÕÀ¸·Î½á Ãë±ÞÇÑ´Ù.
-
- - ÀÌ·¸°Ô Æ¯Á¤ µ¥ÀÌÅÍµéÀÇ ÁýÇÕ¿¡¼­ ÇÊ¿ä·Î ÇÏ´Â µ¥ÀÌÅÍ¸¦ ²¨³»¼­ Á¶È¸ÇÏ°í »õ·Î¿î µ¥ÀÌÅÍ¸¦ ÀÔ·Â/¼öÁ¤/»èÁ¦ÇÏ´Â ÇàÀ§¸¦ ÅëÇØ¼­ »ç¿ëÀÚ´Â µ¥ÀÌÅÍº£ÀÌ½º¿Í ´ëÈ­ÇÏ°Ô µÈ´Ù.
-
- - ±×¸®°í SQLÀº ÀÌ·¯ÇÑ ´ëÈ­¸¦ °¡´ÉÇÏµµ·Ï ¸Å°³ ¿ªÇÒÀ» ÇÑ´Ù. °á°úÀûÀ¸·Î SQL ¹®ÀåÀ» ¹è¿ì´Â °ÍÀÌ °ð °ü°èÇü µ¥ÀÌÅÍº£ÀÌ½º¸¦ ¹è¿ì´Â ±âº» ´Ü°è¶ó°í ÇÒ ¼ö ÀÖ´Ù.
+## SQL(Structured Query Language) ì •ì˜ì™€ ì¢…ë¥˜(DML, DDL, DCL, TCL)
 
 
-## SQL ¹®ÀåµéÀÇ Á¾·ù
+ - SQL(Structured Query Language)ì€ ê´€ê³„í˜• ë°ì´í„°ë² ì´ìŠ¤ì—ì„œ ë°ì´í„° ì •ì˜(DDL), ë°ì´í„° ì¡°ìž‘(DML), ë°ì´í„° ì œì–´(DCL)ë¥¼ í•˜ê¸° ìœ„í•´ ì‚¬ìš©í•˜ëŠ” ì–¸ì–´ë‹¤.
 
-### µ¥ÀÌÅÍ Á¶ÀÛ¾î(DML : Data Manipulation Language)
+ - SQLì˜ ìµœì´ˆ ì´ë¦„ì´ SEQUEL(Structured English QUEry Language)ì´ì—ˆê¸° ë•Œë¬¸ì— 'ì‹œíì–¼'ë¡œ ì½ëŠ” ê²½ìš°ë„ ìžˆì§€ë§Œ í‘œì¤€ì€ SQL ì´ë¯€ë¡œ 'ì—ìŠ¤íì—˜'ë¡œ ì½ëŠ”ë‹¤.
 
- - SELECT : µ¥ÀÌÅÍº£ÀÌ½º¿¡ µé¾î ÀÖ´Â µ¥ÀÌÅÍ¸¦ Á¶È¸ÇÏ°Å³ª °Ë»öÇÏ±â À§ÇÑ ¸í·É¾î¸¦ ¸»ÇÏ´Â °ÍÀ¸·Î RETRIEVE ¶ó°íµµ ÇÑ´Ù.
+ - SQL ë¬¸ìž¥ì€ ë‹¨ìˆœ ìŠ¤í¬ë¦½íŠ¸ê°€ ì•„ë‹ˆë¼ ë…ë¦½ëœ í•˜ë‚˜ì˜ ê°œë°œ ì–¸ì–´ì´ë‹¤.
 
- - INSERT, UPDATE, DELETE :  µ¥ÀÌÅÍº£ÀÌ½ºÀÇ Å×ÀÌºí¿¡ µé¾î ÀÖ´Â µ¥ÀÌÅÍ¿¡ º¯ÇüÀ» °¡ÇÏ´Â Á¾·ùÀÇ ¸í·É¾îµéÀ» ¸»ÇÑ´Ù. µ¥ÀÌÅÍ »ðÀÔ, ¼öÁ¤, »èÁ¦
+ - í•˜ì§€ë§Œ, ì¼ë°˜ì ì¸ í”„ë¡œê·¸ëž˜ë° ì–¸ì–´ì™€ëŠ” ë‹¬ë¦¬ SQLì€ ê´€ê³„í˜• ë°ì´í„°ë² ì´ìŠ¤ì— ëŒ€í•œ ì „ë‹´ ì ‘ì† ìš©ë„ë¡œ ì‚¬ìš©ë˜ë©° ì„¸ë¯¸ì½œë¡ (;)ìœ¼ë¡œ ë¶„ë¦¬ë˜ì–´ ìžˆëŠ” SQL ë¬¸ìž¥ ë‹¨ìœ„ë¡œ ë…ë¦½ë˜ì–´ ìžˆë‹¤.
 
-### µ¥ÀÌÅÍ Á¤ÀÇ¾î(DDL : Data Definition Language)
+ - ê´€ê³„í˜• ë°ì´í„°ë² ì´ìŠ¤ëŠ” ìˆ˜í•™ì˜ ì§‘í•© ë…¼ë¦¬ì— ìž…ê°í•œ ê²ƒì´ë¯€ë¡œ, SQLë„ ë°ì´í„°ë¥¼ ì§‘í•©ìœ¼ë¡œì¨ ì·¨ê¸‰í•œë‹¤.
 
- - CREATE, ALTER, DROP, RENAME, TRUNCATE :  Å×ÀÌºí°ú °°Àº µ¥ÀÌÅÍ ±¸Á¶¸¦ Á¤ÀÇÇÏ´Âµ¥ »ç¿ëµÇ´Â ¸í·É¾îµé·Î ±×·¯ÇÑ ±¸Á¶¸¦ »ý¼ºÇÏ°Å³ª º¯°æÇÏ°Å³ª »èÁ¦ÇÏ°Å³ª ÀÌ¸§À» ¹Ù²Ù´Â µ¥ÀÌÅÍ ±¸Á¶¿Í °ü·ÃµÈ ¸í·É¾îµéÀ» DDLÀÌ¶ó°í ºÎ¸¥´Ù.
+ - ì´ë ‡ê²Œ íŠ¹ì • ë°ì´í„°ë“¤ì˜ ì§‘í•©ì—ì„œ í•„ìš”ë¡œ í•˜ëŠ” ë°ì´í„°ë¥¼ êº¼ë‚´ì„œ ì¡°íšŒí•˜ê³  ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ìž…ë ¥/ìˆ˜ì •/ì‚­ì œí•˜ëŠ” í–‰ìœ„ë¥¼ í†µí•´ì„œ ì‚¬ìš©ìžëŠ” ë°ì´í„°ë² ì´ìŠ¤ì™€ ëŒ€í™”í•˜ê²Œ ëœë‹¤.
 
-### µ¥ÀÌÅÍ Á¦¾î¾î(DCL : Data Control Language)
+ - ê·¸ë¦¬ê³  SQLì€ ì´ëŸ¬í•œ ëŒ€í™”ë¥¼ ê°€ëŠ¥í•˜ë„ë¡ ë§¤ê°œ ì—­í• ì„ í•œë‹¤. ê²°ê³¼ì ìœ¼ë¡œ SQL ë¬¸ìž¥ì„ ë°°ìš°ëŠ” ê²ƒì´ ê³§ ê´€ê³„í˜• ë°ì´í„°ë² ì´ìŠ¤ë¥¼ ë°°ìš°ëŠ” ê¸°ë³¸ ë‹¨ê³„ë¼ê³  í•  ìˆ˜ ìžˆë‹¤.
 
- - GRANT, REVOKE : µ¥ÀÌÅÍº£ÀÌ½º¿¡ Á¢±ÙÇÏ°í °´Ã¼µéÀ» »ç¿ëÇÏµµ·Ï ±ÇÇÑÀ» ÁÖ°í È¸¼öÇÏ´Â ¸í·É¾î¸¦ DCLÀÌ¶ó°í ÇÑ´Ù. 
 
-### Æ®·£Àè¼Ç Á¦¾î¾î(TCL :  Transaction Control Language)
+## SQL ë¬¸ìž¥ë“¤ì˜ ì¢…ë¥˜
 
- - COMMIT, ROLLBACK, SAVEPOINT : ³í¸®ÀûÀÎ ÀÛ¾÷ÀÇ ´ÜÀ§¸¦ ¹­¾î¼­ DML¿¡ ÀÇÇØ Á¶ÀÛµÈ °á°ú¸¦ ÀÛ¾÷´ÜÀ§(Æ®·£Àè¼Ç) º°·Î Á¦¾îÇÏ´Â ¸í·É¾î¸¦ ¸»ÇÑ´Ù. 
+### ë°ì´í„° ì¡°ìž‘ì–´(DML : Data Manipulation Language)
 
-ÃâÃ³: https://hyeonstorage.tistory.com/289 
+ - `SELECT` : ë°ì´í„°ë² ì´ìŠ¤ì— ë“¤ì–´ ìžˆëŠ” ë°ì´í„°ë¥¼ ì¡°íšŒí•˜ê±°ë‚˜ ê²€ìƒ‰í•˜ê¸° ìœ„í•œ ëª…ë ¹ì–´ë¥¼ ë§í•˜ëŠ” ê²ƒìœ¼ë¡œ RETRIEVE ë¼ê³ ë„ í•œë‹¤.
+
+ - `INSERT, UPDATE, DELETE` :  ë°ì´í„°ë² ì´ìŠ¤ì˜ í…Œì´ë¸”ì— ë“¤ì–´ ìžˆëŠ” ë°ì´í„°ì— ë³€í˜•ì„ ê°€í•˜ëŠ” ì¢…ë¥˜ì˜ ëª…ë ¹ì–´ë“¤ì„ ë§í•œë‹¤. ë°ì´í„° ì‚½ìž…, ìˆ˜ì •, ì‚­ì œ
+
+### ë°ì´í„° ì •ì˜ì–´(DDL : Data Definition Language)
+
+ - `CREATE, ALTER, DROP, RENAME, TRUNCATE` :  í…Œì´ë¸”ê³¼ ê°™ì€ ë°ì´í„° êµ¬ì¡°ë¥¼ ì •ì˜í•˜ëŠ”ë° ì‚¬ìš©ë˜ëŠ” ëª…ë ¹ì–´ë“¤ë¡œ ê·¸ëŸ¬í•œ êµ¬ì¡°ë¥¼ ìƒì„±í•˜ê±°ë‚˜ ë³€ê²½í•˜ê±°ë‚˜ ì‚­ì œí•˜ê±°ë‚˜ ì´ë¦„ì„ ë°”ê¾¸ëŠ” ë°ì´í„° êµ¬ì¡°ì™€ ê´€ë ¨ëœ ëª…ë ¹ì–´ë“¤ì„ DDLì´ë¼ê³  ë¶€ë¥¸ë‹¤.
+
+### ë°ì´í„° ì œì–´ì–´(DCL : Data Control Language)
+
+ - `GRANT, REVOKE` : ë°ì´í„°ë² ì´ìŠ¤ì— ì ‘ê·¼í•˜ê³  ê°ì²´ë“¤ì„ ì‚¬ìš©í•˜ë„ë¡ ê¶Œí•œì„ ì£¼ê³  íšŒìˆ˜í•˜ëŠ” ëª…ë ¹ì–´ë¥¼ DCLì´ë¼ê³  í•œë‹¤. 
+
+### íŠ¸ëžœìž­ì…˜ ì œì–´ì–´(TCL :  Transaction Control Language)
+
+ - `COMMIT, ROLLBACK, SAVEPOINT` : ë…¼ë¦¬ì ì¸ ìž‘ì—…ì˜ ë‹¨ìœ„ë¥¼ ë¬¶ì–´ì„œ DMLì— ì˜í•´ ì¡°ìž‘ëœ ê²°ê³¼ë¥¼ ìž‘ì—…ë‹¨ìœ„(íŠ¸ëžœìž­ì…˜) ë³„ë¡œ ì œì–´í•˜ëŠ” ëª…ë ¹ì–´ë¥¼ ë§í•œë‹¤. 
+
+ì¶œì²˜: https://hyeonstorage.tistory.com/289 
